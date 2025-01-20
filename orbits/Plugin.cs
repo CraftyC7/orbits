@@ -10,17 +10,41 @@ using System.Reflection;
 
 namespace orbits
 {
-[BepInPlugin(PluginGUID, PluginName, PluginVersion)]
+    [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.fiufki.orbits";
-        public const string PluginName = "Orbits";
-        public const string PluginVersion = "1.0.2";
-        
-        internal static ManualLogSource Log;
+        public const string PluginGUID    = "com.fiufki.orbits";
+        public const string PluginName    = "Orbits";
+        public const string PluginVersion = "1.0.4";
 
+        internal static ManualLogSource Log;
         internal static AssetBundle OrbitsBundle;
 
+        private void Awake()
+        {
+            Log = base.Logger;
+            Log.LogInfo($"{PluginName} is loaded.");
+
+            try
+            {
+                var harmony = new Harmony(PluginGUID);
+                harmony.PatchAll();
+            }
+            catch (Exception ex)
+            {
+                Log.LogError($"Failed to initialize Harmony patches: {ex}");
+            }
+
+            string folderPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string bundlePath = Path.Combine(folderPath, "orbits");
+
+            OrbitsBundle = AssetBundle.LoadFromFile(bundlePath);
+            if (OrbitsBundle == null)
+            {
+                Log.LogError("Failed to load assets from " + bundlePath + ".");
+            }
+        }
+        
         internal static Dictionary<int, LevelPatchData> LevelPatches = new Dictionary<int, LevelPatchData>
         {
             {
@@ -108,31 +132,6 @@ namespace orbits
                 }
             }
         };
-
-        private void Awake()
-        {
-            Log = base.Logger;
-            Log.LogInfo($"Plugin {PluginName} v{PluginVersion} is loaded.");
-
-            try
-            {
-                var harmony = new Harmony(PluginGUID);
-                harmony.PatchAll();
-            }
-            catch (Exception ex)
-            {
-                Log.LogError($"Failed to initialize Harmony patches: {ex}");
-            }
-
-            string folderPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            string bundlePath = Path.Combine(folderPath, "orbits");
-
-            OrbitsBundle = AssetBundle.LoadFromFile(bundlePath);
-            if (OrbitsBundle == null)
-            {
-                Log.LogError("Failed to load assets from " + bundlePath + ".");
-            }
-        }
     }
 
     public class LevelPatchData
