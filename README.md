@@ -4,24 +4,28 @@ This mod modifies the descriptions of vanilla moons to fit on the screen (<b>for
 
 [![ko-fi](https://i.imgur.com/sVOqMFu.png)](https://ko-fi.com/fiufki)
 
-![com.fiufki.orbits](https://i.imgur.com/77wg2ua.png)
+![com.fiufki.orbits](https://github.com/fiufki97/orbits/blob/master/orbits/assets/orbits.png?raw=true)
 
-<h3>Screenshots</h3>
+<h3>Examples:</h3>
 
-![1](https://i.imgur.com/3V8kJs8.png)
-![2](https://i.imgur.com/vt9k0LY.png)
-![3](https://i.imgur.com/VvSZnHj.png)
-![4](https://i.imgur.com/gmoWtmW.png)
+![MapView20Ada](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView20Ada.gif?raw=true)
+![MapView21Off](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView21Off.gif?raw=true)
+![MapView56Vow](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView56Vow.gif?raw=true)
+![MapView5Emb](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView5Emb.gif?raw=true)
+![MapView61Mar](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView61Mar.gif?raw=true)
+![MapView68Art](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView68Art.gif?raw=true)
+![MapView71Gor](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView71Gor.gif?raw=true)
+![MapView7Din](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView7Din.gif?raw=true)
 
 <h3>Feedback is <b>important</b>!</h3>
 
-Join the [Discord Thread](https://discord.com/channels/1168655651455639582/1231278491169853461) if you find any bugs or something about the description or the video is incorrect.
+Join the [<ins>Discord Thread</ins>](https://discord.com/channels/1168655651455639582/1231278491169853461) if you find any bugs or something about the description or the video is incorrect.
 
 <hr>
 
 <h3>MIT License</h3>
 
-Copyright © 2025 [fiufki](https://thunderstore.io/package/fiufki/?section=mods)
+Copyright © 2025 [<ins>fiufki</ins>](https://thunderstore.io/package/fiufki/?section=mods)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
