@@ -34,7 +34,7 @@ namespace orbits
             {
                 Log.LogError($"Failed to initialize Harmony patches: {ex}");
             }
-
+            
             string folderPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             string bundlePath = Path.Combine(folderPath, "orbits");
 
@@ -143,6 +143,8 @@ namespace orbits
     [HarmonyPatch(typeof(RoundManager), "Start")]
     public class RoundManager_Start_Patch
     {
+        private static Dictionary<string, VideoClip> _cachedVideoClips = new Dictionary<string, VideoClip>();
+
         static void Postfix(RoundManager __instance)
         {
             try
@@ -166,10 +168,18 @@ namespace orbits
                     {
                         level.LevelDescription = patchData.Description;
                         plugin.Log.LogInfo($"Updated description of level ID {level.levelID}.");
-
+                        
                         if (!string.IsNullOrEmpty(patchData.ClipName))
                         {
-                            VideoClip clip = plugin.OrbitsBundle.LoadAsset<VideoClip>(patchData.ClipName);
+                            if (!_cachedVideoClips.TryGetValue(patchData.ClipName, out var clip))
+                            {
+                                clip = plugin.OrbitsBundle.LoadAsset<VideoClip>(patchData.ClipName);
+                                if (clip != null)
+                                {
+                                    _cachedVideoClips[patchData.ClipName] = clip;
+                                }
+                            }
+
                             if (clip != null)
                             {
                                 level.videoReel = clip;
