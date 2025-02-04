@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using BepInEx;
 using BepInEx.Logging;
@@ -13,9 +13,9 @@ namespace orbits
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class plugin : BaseUnityPlugin
     {
-        public const string PluginGUID    = "com.fiufki.orbits";
-        public const string PluginName    = "Orbits";
-        public const string PluginVersion = "1.0.4";
+        public const string PluginGUID = "com.fiufki.orbits";
+        public const string PluginName = "Orbits";
+        public const string PluginVersion = "1.0.6";
 
         internal static ManualLogSource Log;
         internal static AssetBundle OrbitsBundle;
