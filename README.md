@@ -1,12 +1,22 @@
-Welcome to <b>Orbits</b>!
-
-This mod modifies the descriptions of vanilla moons to fit on the screen (<b>for example, the description of Titan was so long that you couldn't see the weather, also there was some repeated descriptions</b>) and adds missing video preview to every vanilla moon (<b>for example, before only Experimentation, Assurance and Offense had video previews, even worse Offense had the exact same video preview as Assurance</b>).
-
-[![ko-fi](https://i.imgur.com/sVOqMFu.png)](https://ko-fi.com/fiufki)
+<h3>Welcome to <b>Orbits</b>!</h3>
 
 ![com.fiufki.orbits](https://github.com/fiufki97/orbits/blob/master/orbits/assets/orbits.png?raw=true)
 
-<h3>Examples:</h3>
+This mod adjusts the vanilla moon descriptions so they fit on the screen or consistent.
+
+>For example the description for <b>Titan</b> was so long that it couldn't fit.
+
+It also adds missing video previews to every vanilla moon.
+
+>Examples are <b>somewhere below</b>.
+
+<a href="Ko-Fi"><img src="https://github.com/fiufki97/siabudabu/blob/main/kofi+.png?raw=true" width="44%" alt="Ko-Fi"></a>
+
+<hr>
+
+<h3>Examples</h3>
+
+>Not all of the new video reels are shown here.
 
 ![MapView20Ada](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView20Ada.gif?raw=true)
 ![MapView21Off](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView21Off.gif?raw=true)
@@ -17,15 +27,23 @@ This mod modifies the descriptions of vanilla moons to fit on the screen (<b>for
 ![MapView71Gor](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView71Gor.gif?raw=true)
 ![MapView7Din](https://github.com/fiufki97/orbits/blob/master/orbits/assets/MapView7Din.gif?raw=true)
 
-<h3>Feedback is <b>important</b>!</h3>
+<hr>
 
-Join the [<ins>Discord Thread</ins>](https://discord.com/channels/1168655651455639582/1231278491169853461) if you find any bugs or something about the description or the video is incorrect.
+<h3>NFAQ (<b>N</b>ot <b>F</b>requently <b>A</b>sked <b>Q</b>uestions)</h3>
+
+<b>Why did you made this mod</b>?
+
+>The simple answear is that the inconsistency of the descriptions or the blank video reels annoyed me.
+
+<b>Where can I contant you</b>?
+
+>On the [<ins>Lethal Company Modding</ins>](https://discord.com/invite/lcmod) server.<br>After you joined you can click [<ins>this</ins>](https://discord.com/channels/1168655651455639582/1231278491169853461) to open a channel to contact me.
 
 <hr>
 
 <h3>MIT License</h3>
 
-Copyright © 2025 [<ins>fiufki</ins>](https://thunderstore.io/package/fiufki/?section=mods)
+Copyright © 2025 [<ins>fiufki</ins>](https://thunderstore.io/c/lethal-company/p/fiufki/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -37,10 +55,10 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+<b>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE.</b>
