@@ -2,11 +2,9 @@
 
 ![com.fiufki.orbits](https://github.com/fiufki97/orbits/blob/master/orbits/assets/orbits.png?raw=true)
 
-This mod adjusts the vanilla moon descriptions so they fit on the screen or consistent.
+Altered to remove changes to moon descriptions by Crafty, all original credit for the mod goes to fiufki.
 
->For example the description for <b>Titan</b> was so long that it couldn't fit.
-
-It also adds missing video previews to every vanilla moon.
+This mod adds missing video previews to every vanilla moon.
 
 >Examples are <b>somewhere below</b>.
 
