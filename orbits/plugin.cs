@@ -11,7 +11,7 @@ using System.Reflection;
 namespace orbits;
 [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
 public class plugin : BaseUnityPlugin {
-    public const string PluginGUID = "com.fiufki.orbits";
+    public const string PluginGUID = "com.crafty.orbits";
     public const string PluginName = "Orbits Video Only";
     public const string PluginVersion = "1.0.6";
     
