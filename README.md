@@ -2,7 +2,7 @@
 
 ![com.fiufki.orbits](https://github.com/fiufki97/orbits/blob/master/orbits/assets/orbits.png?raw=true)
 
-Altered under MIT License to remove changes to moon descriptions by Crafty, all original credit for the mod goes to fiufki.
+Altered under MIT License to remove changes to moon descriptions, all original credit for the mod goes to fiufki.
 
 This mod adds missing video previews to every vanilla moon.
 
